@@ -40,7 +40,7 @@ export class SearchComponent implements OnInit {
   }
   selectQuestion = (question: any) => {
     let results = [];
-    let id = question.currentTarget.innerText.slice(4, 6);
+    let id = question.currentTarget.innerText.slice(20,22)
     results = this.questions.filter(data => data.id === id);
     localStorage.removeItem('item');
     localStorage.setItem('item', JSON.stringify(results[0]));
