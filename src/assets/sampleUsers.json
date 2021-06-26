@@ -1,0 +1,22 @@
+[
+    {
+        "username": "dravid",
+        "password": "dravid@1234"
+    },
+    {
+        "username": "sachin",
+        "password": "sachin@1234"
+    },
+    {
+        "username": "kohli",
+        "password": "kohli@1234"
+    },
+    {
+        "username": "miller",
+        "password": "miller@1234"
+    },
+    {
+        "username": "dhoni",
+        "password": "dhoni@1234"
+    }
+]

@@ -1,0 +1,32 @@
+.form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+  .mainDiv{
+      padding: 17px;
+  }
+  .button-row {
+    display: table-cell;
+    width: 490px;
+  }
+  .list{
+    padding: 0px;
+    margin-top: -12px;
+  }
+  .questionDiv{
+      padding: 17px;
+  }
+  .bold{
+      font-weight: bold;
+  }
+  .listItem{
+      height: 36px;
+  }
+  .spacer {
+    flex: 1 1 auto;
+  }

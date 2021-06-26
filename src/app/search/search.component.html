@@ -1,0 +1,31 @@
+<mat-toolbar color="primary">
+    <span>Search Question</span>
+    <span class="spacer"></span>
+    <button (click)='logout()'>Logout</button>
+</mat-toolbar>
+
+
+<div class='mainDiv'>
+    <form class="form">
+        <mat-form-field class="full-width">
+            <mat-label>Search Text</mat-label>
+            <input matInput name='search' [(ngModel)]='searchText' placeholder="Placeholder">
+            <mat-icon matSuffix>search</mat-icon>
+        </mat-form-field>
+        <div class="button-row">
+            <button mat-raised-button color="primary" (click)='filterQuestions()'>Submit</button>
+        </div>
+    </form>
+</div>
+
+
+<div *ngIf="searchResults.length !== 0 ">
+    <mat-list role=" list" class='list' *ngFor="let result of searchResults; let i= index" [attr.rowNo]=i
+    (click)='selectQuestion($event)'>
+    <mat-list-item role="listitem">Id :{{result.id}}</mat-list-item>
+    <mat-list-item role="listitem">QuestionText: {{result.questionText}}</mat-list-item>
+    </mat-list>
+</div>
+<div *ngIf='noResults'>
+    <div [ngStyle]="{'color': 'red'}">No Results Found</div>
+</div>

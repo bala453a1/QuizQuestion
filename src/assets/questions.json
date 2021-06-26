@@ -1,0 +1,77 @@
+[
+    {
+        "id":"01",
+        "questionText":"Which of the following statement is not correct about ICC?",
+        "answerOptions":["The ICC is the global governing body for cricket.",
+            "ICC has 53 members","ICC is also responsible for the staging of all ICC Events.",
+        "The ICC also appoints all match officials that officiate at all sanctioned international matches."],
+        "correctAnswer":"ICC has 53 members",
+        "author":"ICC",
+        "status":{
+            "lastAskedDate":"12-02-2021",
+            "askedCount":"3",
+            "percentage":"20"
+        }
+    },
+    {
+        "id":"02",
+        "questionText":"Which countries are the latest full time members of the ICC?",
+        "answerOptions":["Afghanistan and Ireland","Bangladesh and Nepal",
+        "Trinidad & Tobago and Burundi","None of the above"],
+        "correctAnswer":"Afghanistan and Ireland",
+        "author":"ICC",
+        "status":{
+            "lastAskedDate":"01-01-2021",
+            "askedCount":"6",
+            "percentage":"30"
+        }
+    },
+    {
+        "id":"03",
+        "questionText":"Which of the following is the oldest test cricket playing country in the world?",
+        "answerOptions":["Australia","India","West Indies","South Africa"],
+        "correctAnswer":"Australia",
+        "author":"ICC",
+        "status":{
+            "lastAskedDate":"24-05-2021",
+            "askedCount":"2",
+            "percentage":"20"
+        }
+    },
+    {
+        "id":"04",
+        "questionText":"Where is the headquarter of the ICC?",
+        "answerOptions":["London","Cape town","Sydney","Dubai"],
+        "correctAnswer":"Dubai",
+        "author":"ICC",
+        "status":{
+            "lastAskedDate":"22-01-2020",
+            "askedCount":"30",
+            "percentage":"70"
+        }
+    },
+    {
+        "id":"05",
+        "questionText":"When was ICC established?",
+        "answerOptions":["1909","1953","1960","1877"],
+        "correctAnswer":"1909",
+        "author":"ICC",
+        "status":{
+            "lastAskedDate":"23-06-2020",
+            "askedCount":"3",
+            "percentage":"15"
+        }
+    },
+    {
+        "id":"06",
+        "questionText":"Which of the following international competition is not organized by the ICC?",
+        "answerOptions":["Champions Trophy","World Cricket League","Under-19 Cricket World Cup","Syed Mushtaq Ali Trophy"],
+        "correctAnswer":"Syed Mushtaq Ali Trophy",
+        "author":"ICC",
+        "status":{
+            "lastAskedDate":"22-04-2021",
+            "askedCount":"4",
+            "percentage":"100"
+        }
+    }
+]

@@ -1,0 +1,26 @@
+<mat-toolbar color="primary">
+    <span>Question Summary</span>
+    <span class="spacer"></span>
+    <button (click) = 'logout()'>Logout</button>
+</mat-toolbar>
+
+<div class='questionDiv'>
+    <span>
+        <p class='bold'>Id</p>
+        <p>{{question.id}}</p>
+        <p class='bold'>Question Text</p>
+        <p>{{question.questionText}}</p>
+        <p class='bold'>Question Options</p>
+        <mat-list role="list" class='list' *ngFor="let option of question.answerOptions; let i= index">
+            <p class='listItem' role="listitem">{{i+1}} {{option}}</p>
+        </mat-list>
+    </span>
+    <p class='bold'>Correct Answer</p>
+    <p>{{question.correctAnswer }}</p>
+    <p class='bold'>Author</p>
+    <p>{{question.author }}</p>
+    <P class='bold'>Status</P>
+    <p>Last Asked Date : {{question.status.lastAskedDate}}</p>
+    <p>Asked Count : {{question.status.askedCount}}</p>
+    <p>percent of users who answered correctly :{{question.status.percentage}}</p>
+</div>
