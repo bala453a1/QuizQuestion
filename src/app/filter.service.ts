@@ -27,7 +27,7 @@ export class FilterService {
       for (let key in data[i]) {
         if (key === 'questionText') {
           if (data[i][key] !== null && data[i][key] !== undefined && data[i][key] !== "") {
-            if (data[i][key].toLowerCase().indexOf(args) != -1) {
+            if (data[i][key].toLowerCase().indexOf(args..toLowerCase()) != -1) {
               results.push(data[i]);
               break;
             }
